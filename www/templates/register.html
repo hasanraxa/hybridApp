@@ -1,0 +1,47 @@
+<ion-view view-title="Register">
+  <ion-content>
+
+  <div class="row">
+    <div class="col" style="height:400px;">
+       <ion-slide-box>
+    <ion-slide>
+      <div class="box blue">
+        slide 1
+      </div>
+    </ion-slide>
+    <ion-slide>
+      <div class="box red">
+        Slide 2!
+      </div>
+    </ion-slide>
+     <ion-slide>
+      <div class="box red">
+        Slide 3!
+      </div>
+    </ion-slide>
+  </ion-slide-box>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col"><button ng-click="next()">Next</button><button ng-click="previous()">PRevious</button></div>
+  </div>
+
+     <ion-refresher
+    pulling-text="Pull to refresh..."
+    on-refresh="doRefresh()">
+  </ion-refresher>
+
+  
+  <div class="list">
+    <div class="item" ng-repeat="i in items">
+    {{i}}
+    </div>
+  </div>
+
+  <ion-infinite-scroll
+  on-infinite="loadData()">
+</ion-infinite-scroll>
+
+    </ion-content>
+</ion-view>

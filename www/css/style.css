@@ -1,0 +1,41 @@
+/* Empty. Add your own CSS if you like */
+.pink {
+  background: pink;
+}
+
+.pane{
+  background-color: #574d4d !important;
+}
+.item{
+  /*background-color: #574d4d !important;*/
+
+}
+.h1{
+  text-align: center;
+  color: grey;
+
+}
+.normalText{
+
+  text-align: center;
+  color: grey;
+}
+.list{
+
+}
+.list-inset{
+  background-color: #574d4d !important;
+}
+
+.my-font{
+	color: white;
+	font-weight: bold;
+}
+
+.input-label{
+	color:#ece2e2;
+}
+.my_icon{
+	background-color: blue;
+	color: blue;
+}
